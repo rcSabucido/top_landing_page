@@ -71,7 +71,7 @@ a {
 
 }
 
-button {
+.hero-button {
     font-family: Roboto, sans-serif;
     font-weight: 800;
     border: none;
@@ -152,5 +152,47 @@ button {
 
 /*this is the end of the quote section*/
 
+/*this is the start of the call-to-acton section*/
 
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-modal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3B82F6;
+    width: 1400px;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 7px;
+}
+
+.action-text {
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+.action-text .action-bold {
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.action-button {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: 2px solid #e5e7eb;
+    height: 35px;
+    padding: 0px 25px;
+    border-radius: 7px;
+    background-color: #3B82F6;
+    color: #e5e7eb;
+}
 
