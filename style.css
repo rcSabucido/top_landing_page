@@ -81,6 +81,12 @@ a {
     color: #e5e7eb;
 }
 
+.hero-button:hover {background-color: #1f4b94}
+
+.hero-button:active {
+    background-color: #1f4b94;
+  transform: translateY(4px);
+}
 /*this is the end of the hero section*/
 
 /*this is the start of the 2nd section*/
@@ -196,3 +202,11 @@ a {
     color: #e5e7eb;
 }
 
+.action-button:hover {background-color: #1f4b94}
+
+.action-button:active {
+    background-color: #1f4b94;
+    transform: translateY(4px);
+}
+
+/* this is the end of the call-to-action section*/
