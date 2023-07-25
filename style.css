@@ -173,7 +173,7 @@ a {
     background-color: #3B82F6;
     width: 1400px;
     padding: 40px;
-    margin: 40px;
+    margin: 60px;
     border-radius: 7px;
 }
 
@@ -210,3 +210,15 @@ a {
 }
 
 /* this is the end of the call-to-action section*/
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 16px;
+}
+
+.footer-text {
+    color: #e5e7eb;
+}
